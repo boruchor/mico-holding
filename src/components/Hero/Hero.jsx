@@ -1,5 +1,4 @@
 import "./Hero.css";
-// import bg from "../../assets/bg.webp";
 import logo from "../../assets/logo.png";
 import { motion } from "framer-motion";
 
@@ -7,7 +6,6 @@ export default function Hero() {
   return (
     <motion.div
       className="hero-wrapper"
-      {/* style={{ backgroundImage: `url(${bg})` }} */}
       initial={{ opacity: 0, scale: 1.05 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 1, ease: "easeOut" }}
