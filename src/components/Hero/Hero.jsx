@@ -1,5 +1,5 @@
 import "./Hero.css";
-import bg from "../../assets/bg.webp";
+// import bg from "../../assets/bg.webp";
 import logo from "../../assets/logo.png";
 import { motion } from "framer-motion";
 
